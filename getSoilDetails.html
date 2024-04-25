@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/soilDetails.css">
+</head>
+<body>
+    <div class="papa_dabba">
+        <div class="bda_dabba">
+            <div class="chota_dabba">
+                <form action="/action_page.php">
+                    <label for="fname">Enter your country: </label><br>
+                    <input type="text" id="country" name="country"><br><br>
+                    <label for="lname">Enter your place: </label><br>
+                    <input type="text" id="place" name="place"><br><br>
+                    <label for="lname">Enter climate estimated for the next 3 months: </label><br>
+                    <input type="text" id="climate" name="climate"><br><br>
+                    <label for="lname">Enter soil pH: </label><br>
+                    <input type="text" id="pH" name="pH"><br><br><br>
+                    <input onclick="check()" value="Submit" id="btn"><br><br><br><br>
+                </form>
+            </div>
+            <div id="status">
+                Fill the details.
+            </div>
+        </div>
+    </div>
+    <script src="js/getSoilDetails.js"></script>
+</body>
+</html>
